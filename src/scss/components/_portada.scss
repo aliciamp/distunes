@@ -1,0 +1,13 @@
+.title-img {
+    background-image: url(img/redhot.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: 100%;
+
+    transition: background-size 0.5s;
+
+    &:hover {
+        background-size: 115% ;
+    }
+}
